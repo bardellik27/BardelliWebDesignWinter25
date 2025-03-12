@@ -8,7 +8,7 @@ p {
 }
 
 body {
-    background-color: mistyrose;
+    background-image: url("https://marvel-b1-cdn.bc0a.com/f00000000234031/www.pacificu.edu/sites/default/files/styles/page_banner/public/190507_Physical%20Therapy-1_0.jpg?itok=-NMp4i_y");
 }
 
 a {
@@ -18,4 +18,16 @@ a {
 iframe{
     height:600px;
     width:100%;
+}
+.header{
+    border-style: solid;
+    background-color: mistyrose;
+}
+.content{
+    background-color: mistyrose;
+    height:80%;
+    width:70%;
+}
+.footer{
+    background-color: mistyrose;
 }
