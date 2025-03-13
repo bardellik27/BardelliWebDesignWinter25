@@ -28,3 +28,7 @@ a {
 .footer{
     background-color: mistyrose;
 }
+.job-title{
+    font-weight: bold;
+    color:maroon
+}
