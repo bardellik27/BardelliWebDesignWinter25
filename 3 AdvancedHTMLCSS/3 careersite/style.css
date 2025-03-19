@@ -16,16 +16,16 @@ a {
     font-style: italic;
 }
 
-.header{
+header{
     border-style: solid;
     background-color: mistyrose;
 }
-.content{
+main{
     background-color: mistyrose;
     height:80%;
     width:70%;
 }
-.footer{
+footer{
     background-color: mistyrose;
 }
 .job-title{
