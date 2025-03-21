@@ -5,7 +5,7 @@ ul a{
 h2 a{
     color: inherit;
 }
-h2#featured{
+div#featured h2{
     font-style: italic;
     color: #30e694;
 }
