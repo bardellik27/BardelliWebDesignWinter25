@@ -32,3 +32,11 @@ footer{
     font-weight: bold;
     color:maroon
 }
+.large-list{
+    font-size: 25px;
+    font-weight: bold;
+}
+ol ul{
+    font-size: 18px;
+    font-weight: normal;
+}
