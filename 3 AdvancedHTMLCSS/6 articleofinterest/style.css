@@ -1,9 +1,34 @@
-body{
+body {
     background-image: url("https://voodooneon.com/cdn/shop/files/cheer-dark-blue.jpg?v=1699933305&width=1946");
+    background-size: 1300px 800px;
 }
-header{
+
+header {
     color: white;
 }
-article{
+
+article {
     color: white;
+    background-color: rgb(255, 255, 255, 0.3);
+    width: 1200px;
+    margin-left: 25px;
+    margin-right: 50px;
+
+}
+
+footer {
+    color: white;
+    background-color: rgb(255, 255, 255, 0.7)
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+a {
+    color: white;
+    margin-left: 190px;
+    margin-right: 100px;
+
 }
