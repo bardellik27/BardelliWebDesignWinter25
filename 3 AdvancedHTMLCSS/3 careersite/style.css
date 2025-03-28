@@ -40,3 +40,10 @@ ol ul{
     font-size: 18px;
     font-weight: normal;
 }
+img{
+    width:200px;
+    height:200px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
