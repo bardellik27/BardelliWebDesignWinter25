@@ -20,7 +20,8 @@ a {
     /* sets the border to make it look like a button */
     text-decoration: none;
     /* removes the underline from the link */
-
+    color: white;
+    background-color: #baaf5d;
 }
 
 li {
@@ -35,7 +36,3 @@ li {
 
 }
 
-a {
-    color: white;
-    background-color: #baaf5d;
-}
