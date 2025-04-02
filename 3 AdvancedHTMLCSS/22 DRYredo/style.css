@@ -1,0 +1,19 @@
+.primary-btn {
+    background-color: #007bff;
+  }
+  
+  .secondary-btn {
+    background-color: #6c757d;
+  }
+  
+  .danger-btn {
+    background-color: #dc3545;
+    padding: 10px 40px;
+  }
+  button{
+    padding:10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+  }
