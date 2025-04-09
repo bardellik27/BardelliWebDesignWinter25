@@ -1,5 +1,9 @@
 img{
     width: 500px;
     height: 500px;
-    filter: hue-rotate(50deg);
+    filter: invert(50)
 }
+.active:hover{
+    filter: invert(0)
+}
+                
