@@ -17,6 +17,12 @@ p{
     background-color: beige;
     font-size: large;
 }
+h3{
+    text-align: center;
+    background-color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 100px;
+}
 div{
     margin: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,4 +35,14 @@ footer{
 }
 img{
     display: block; margin: auto; width: 50%;
+    border: 5px;
+    border-style: dashed;
+}
+img:hover{
+  transform: rotate(360deg);  
+  transition: transform 3s;
+}
+.phone{
+    width:300px;
+    height:300px;
 }
