@@ -46,3 +46,13 @@ img:hover{
     width:300px;
     height:300px;
 }
+.piechart {
+    display: block; margin: auto; width: 50%;
+    width: 350px;
+  height: 350px;
+  background-image: conic-gradient( lightgreen 0% 53%, lightblue 53% 79%, pink 79% 91%, lavender 91% 97%, orange 97% 100%);
+  border-radius: 50%
+}
+h4{
+    text-align: center;
+}
