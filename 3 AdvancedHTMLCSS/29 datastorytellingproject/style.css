@@ -53,12 +53,21 @@ img:hover{
   background-image: conic-gradient( lightgreen 0% 53%, lightblue 53% 79%, pink 79% 91%, lavender 91% 97%, orange 97% 100%);
   border-radius: 50%
 }
+.piechart:hover{
+    
+}
 h4{
     text-align: center;
 }
 .bar-graph{
     width:550px;
     height:350px;
-    
 }
+img.internet-usage{
+    filter:blur(20px);
+}
+img.internet-usage:hover{
+    filter: blur(0px);
+}
+
 
