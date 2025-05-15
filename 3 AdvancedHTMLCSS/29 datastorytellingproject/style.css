@@ -53,8 +53,14 @@ img:hover{
   background-image: conic-gradient( lightgreen 0% 53%, lightblue 53% 79%, pink 79% 91%, lavender 91% 97%, orange 97% 100%);
   border-radius: 50%
 }
-.piechart:hover{
-    
+div.pie-words{
+    float: right;
+    margin-top: -250px;
+    color: brown;
+    visibility: hidden;
+}
+div.pie-words:active{
+    visibility: visible;
 }
 h4{
     text-align: center;
