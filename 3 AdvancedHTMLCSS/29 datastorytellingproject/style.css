@@ -53,14 +53,43 @@ img:hover{
   background-image: conic-gradient( lightgreen 0% 53%, lightblue 53% 79%, pink 79% 91%, lavender 91% 97%, orange 97% 100%);
   border-radius: 50%
 }
-div.pie-words{
-    float: right;
-    margin-top: -250px;
-    color: brown;
-    visibility: hidden;
+.legends{
+    margin-block-end: 2rem;
+    font-size: 0.9rem;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    gap: 1rem;
 }
-div.pie-words:active{
-    visibility: visible;
+.legends span{
+    position: relative;
+    padding-inline-start: 1.25rem;
+}
+.legends span::before{
+    position: absolute;
+    top: 0.4rem;
+    left: 0;
+    content: '';
+    width: 0.8rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.legends span:nth-child(1)::before{
+    background-color: lightgreen
+}
+.legends span:nth-child(2)::before{
+    background-color: lightblue;
+}
+.legends span:nth-child(3)::before{
+    background-color: lightpink;
+}
+.legends span:nth-child(4)::before{
+    background-color: orange;
+}
+.legends span:nth-child(5)::before{
+    background-color: lavender;
 }
 h4{
     text-align: center;
@@ -70,10 +99,11 @@ h4{
     height:350px;
 }
 img.internet-usage{
-    filter:blur(20px);
+    filter:blur(10px);
 }
 img.internet-usage:hover{
     filter: blur(0px);
+    transition: filter 1s;
 }
 
 
