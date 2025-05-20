@@ -18,3 +18,19 @@ img{
 .diff{
     background-color: lightskyblue;
 }
+h4{
+    color:darkblue;
+}
+p{
+    background-color: darkblue;
+    color:white;
+    text-align: center;
+    font-size: x-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.video{
+    text-align: center;
+}
+.black{
+    color:black
+}
