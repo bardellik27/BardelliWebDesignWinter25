@@ -3,3 +3,14 @@ h1{
     background-color: lightskyblue;
     padding:80px;
 }
+.size{
+    width:600px;
+    height:400px;
+    align-items: center;
+}
+.black{
+    color: black;
+}
+.white{
+    color: white;
+}
