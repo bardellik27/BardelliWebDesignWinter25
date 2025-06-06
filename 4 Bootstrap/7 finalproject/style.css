@@ -4,8 +4,8 @@ h1{
     padding:80px;
 }
 .size{
-    width:600px;
-    height:400px;
+    width:400px;
+    height:300px;
     align-items: center;
 }
 .black{
@@ -13,4 +13,46 @@ h1{
 }
 .white{
     color: white;
+}
+.venue{
+    width:400px;
+    height:400px;
+}
+h3{
+    text-align: center;
+    background-color: aliceblue;
+}
+p{
+    font-size: large;
+}
+h2{
+    text-align: center;
+    background-color: lightskyblue;
+}
+.welcome{
+    margin-left:900px;
+    height:200px;
+    width:300px;
+}
+.well{
+    float: left;
+    font-size: larger;
+
+}
+
+.speaker{
+    height: 140px;
+    width: 140px;
+}
+.see{
+    height:400px;
+    width:500px;
+}
+.detail{
+    height:200px;
+    width:300px;
+}
+.nav{
+    height:70px;
+    width:70px;
 }
